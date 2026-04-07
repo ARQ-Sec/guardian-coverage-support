@@ -1,0 +1,9 @@
+# coverage campaign entry
+# rule_key: guardian.kubernetes-secret-yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: runtime-secrets
+type: Opaque
+data:
+  token: "C230yBoZD3SEcrznwJji4/AOL9miIRqo"
